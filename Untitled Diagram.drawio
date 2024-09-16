@@ -21,9 +21,6 @@
         <mxCell id="8" value="List rides" style="" parent="2" vertex="1">
           <mxGeometry x="60" y="220" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="10" value="Chat with rider" style="" parent="2" vertex="1">
-          <mxGeometry x="60" y="325" width="110" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="pMBLiP_Nho2F4OluPu5k-53" value="Rate passenger" style="" parent="2" vertex="1">
           <mxGeometry x="60" y="422" width="110" height="50" as="geometry" />
         </mxCell>
@@ -117,6 +114,9 @@
         <mxCell id="4" value="Administrator" style="swimlane;whiteSpace=wrap;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="850" y="128" width="280" height="662" as="geometry" />
         </mxCell>
+        <mxCell id="kzkmn17KLLuDVO7qfpu3-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4" source="33" target="kzkmn17KLLuDVO7qfpu3-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="33" value="Review &#xa;User complaint" style="" parent="4" vertex="1">
           <mxGeometry x="64.5" y="362" width="110" height="50" as="geometry" />
         </mxCell>
@@ -137,6 +137,20 @@
         </mxCell>
         <mxCell id="pMBLiP_Nho2F4OluPu5k-67" value="[Profile approved]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="4" vertex="1">
           <mxGeometry x="5.5" y="262" width="105.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kzkmn17KLLuDVO7qfpu3-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4" source="kzkmn17KLLuDVO7qfpu3-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="119.5" y="612" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kzkmn17KLLuDVO7qfpu3-71" value="" style="rhombus;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="4">
+          <mxGeometry x="79.5" y="452" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kzkmn17KLLuDVO7qfpu3-75" value="Offer refund" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4">
+          <mxGeometry x="174.5" y="442" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kzkmn17KLLuDVO7qfpu3-77" value="Offer no&lt;div&gt;refund&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4">
+          <mxGeometry x="115.5" y="512" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pMBLiP_Nho2F4OluPu5k-41" value="Payment system" style="swimlane;whiteSpace=wrap;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="1130" y="128" width="314.5" height="662" as="geometry" />
@@ -167,7 +181,7 @@
           <mxGeometry x="95.5" y="602" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="pMBLiP_Nho2F4OluPu5k-47" value="Simulation server" style="swimlane;whiteSpace=wrap;startSize=23;" parent="1" vertex="1">
-          <mxGeometry x="1319" y="128" width="280" height="662" as="geometry" />
+          <mxGeometry x="1444.5" y="128" width="280" height="662" as="geometry" />
         </mxCell>
         <mxCell id="pMBLiP_Nho2F4OluPu5k-51" value="" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#ff0000" parent="pMBLiP_Nho2F4OluPu5k-47" vertex="1">
           <mxGeometry x="130" y="500" width="30" height="30" as="geometry" />
@@ -204,6 +218,16 @@
               <mxPoint x="996" y="420" />
               <mxPoint x="576" y="420" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kzkmn17KLLuDVO7qfpu3-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kzkmn17KLLuDVO7qfpu3-71" target="pMBLiP_Nho2F4OluPu5k-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kzkmn17KLLuDVO7qfpu3-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="pMBLiP_Nho2F4OluPu5k-73" target="rcudk_nzSlbvQskCSMdP-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1590" y="555" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
